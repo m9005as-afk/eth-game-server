@@ -1,0 +1,22 @@
+{
+  "name": "eth-game-server",
+  "version": "1.0.0",
+  "description": "ETH Game Server with Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["game", "socket.io", "ethereum"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
